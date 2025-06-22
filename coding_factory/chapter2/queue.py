@@ -14,8 +14,8 @@ def dequeue(queue):
 
 def menu_pacing():
     # Skip first call, to avoid slowing down initial menu display
-    if not hasattr(flavor, "has_run"):  
-        flavor.has_run = True 
+    if not hasattr(menu_pacing, "has_run"):  
+        menu_pacing.has_run = True 
         return
     
     # Add a short pause and newline on subsequent calls, to improve visual pacing
