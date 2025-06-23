@@ -29,3 +29,24 @@ class Student:
     @lastname.setter
     def lastname(self, lastname):
         self.__lastname = lastname
+    
+
+# Testing:
+
+# Create a Student object
+student = Student(1, "Alice", "Smith")
+
+# Access properties
+print(student.id)         # Should print: 1
+print(student.firstname)  # Should print: Alice
+print(student.lastname)   # Should print: Smith
+
+# Modify properties
+student.id = 2
+student.firstname = "Bob"
+student.lastname = "Johnson"
+
+# Check the updated values
+print(student.id)         # Should print: 2
+print(student.firstname)  # Should print: Bob
+print(student.lastname)   # Should print: Johnson
