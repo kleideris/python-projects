@@ -1,5 +1,7 @@
-from collections import deque
-#TODO add enumerate and the ability to choose if you take out a car by plate or by number.
+"""
+Garage management system that stores and retrieve cars by plate.
+"""
+
 def display_garage(garage: dict[str, str]) -> None:
     if garage:
         print("Current cars in the garage:")
